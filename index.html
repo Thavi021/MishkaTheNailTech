@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nail Technician Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffafc;
+      color: #333;
+    }
+
+    header {
+      background-color: #f8cce0;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #f8cce0;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #b34387;
+    }
+
+    .profile-photo {
+      float: right;
+      margin-left: 20px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #f8cce0;
+    }
+
+    .bio {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .service-list, .cert-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .service-list li, .cert-list li {
+      background-color: #fff0f6;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-left: 5px solid #f8cce0;
+      border-radius: 5px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #b34387;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .contact-form button:hover {
+      background-color: #9c336e;
+    }
+
+    @media (max-width: 600px) {
+      .profile-photo {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Crystal Nails by Sasha</h1>
+    <p>Your trusted Nail Artist & Beauty Specialist</p>
+  </header>
+
+  <div class="container">
+
+    <section class="section" id="profile">
+      <h2>About Me</h2>
+      <img src="your-photo.jpg" alt="Sasha - Nail Technician" class="profile-photo">
+      <p class="bio">
+        Hi! I'm Sasha, a certified nail technician with over 5 years of experience in the beauty industry. I specialize in gel overlays, acrylic extensions, nail art, and manicure/pedicure treatments. My mission is to bring out your inner confidence through beautifully styled nails in a safe, hygienic, and relaxing environment.
+      </p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Services Offered</h2>
+      <ul class="service-list">
+        <li>💅 Gel Polish Manicure</li>
+        <li>💎 Acrylic & Gel Nail Extensions</li>
+        <li>🎨 Custom Nail Art & Designs</li>
+        <li>🌸 Classic & Deluxe Pedicures</li>
+        <li>👩‍⚕️ Nail Repairs & Removal Services</li>
+      </ul>
+    </section>
+
+    <section class="section" id="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>Certified Nail Technician – Beauty Academy SA</li>
+        <li>Health & Hygiene Certified – Professional Beauty SA</li>
+        <li>Advanced Nail Art & Design – GlamPro Training 2023</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Book an Appointment</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <textarea name="message" rows="5" placeholder="Tell me what you'd like to book..." required></textarea>
+        <button type="submit">Send Booking Request</button>
+      </form>
+    </section>
+
+  </div>
+</body>
+</html>
